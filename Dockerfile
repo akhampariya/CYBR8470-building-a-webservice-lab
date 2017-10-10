@@ -16,6 +16,7 @@ WORKDIR /var/www/backend
 #Python packages
 RUN pip install Django
 RUN pip install djangorestframework
+RUN pip install django-bleach
 RUN pip install markdown
 RUN pip install django-filter
 RUN pip install psycopg2
